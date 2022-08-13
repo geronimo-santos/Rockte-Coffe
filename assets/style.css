@@ -12,6 +12,14 @@ body{
 	background-color: #FFEDD5;
 	font-family: 'Roboto', sans-serif;
 }
+button{
+	border: none;
+	border-radius: 100%;
+}
+.botao-mobile{
+	display: none;
+}
+
 ul{
 	list-style: none;
 }
@@ -88,3 +96,20 @@ li.details{
 	line-height: 21px;
 
 }
+
+@media screen and (max-width: 600px){
+	.botao-mobile{
+		display: block;
+		width: 15%;
+		position: absolute;
+		top: 2px;
+		right: 6px;
+	}
+	body{
+		border: 2px solid;
+	}
+}
+
+
+
+
